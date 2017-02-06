@@ -17,11 +17,6 @@ module Spaceship
         'name' => :name
       )
 
-      class << self
-        def factory(attrs)
-          self.new(attrs)
-        end
-      end
     end
   end
 end

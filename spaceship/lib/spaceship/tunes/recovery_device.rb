@@ -59,11 +59,6 @@ module Spaceship
         'updateDate' => :update_date
       )
 
-      class << self
-        def factory(attrs)
-          return self.new(attrs)
-        end
-      end
     end
   end
 end

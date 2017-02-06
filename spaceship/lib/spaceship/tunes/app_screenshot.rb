@@ -6,12 +6,6 @@ module Spaceship
 
       attr_accessor :language
 
-      class << self
-        # Create a new object based on a hash.
-        def factory(attrs)
-          self.new(attrs)
-        end
-      end
     end
   end
 end
